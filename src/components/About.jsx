@@ -1,13 +1,14 @@
 import React from 'react'
 import profileImg from '../assets/profile.jpg'
+import introVideo from '../assets/intro.mp4.mp4'
 
 const About = () => {
   return (
     <section id="about">
       <div className="container" style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 0.8fr) minmax(0, 1.2fr)', gap: '5rem', alignItems: 'center' }}>
         <div className="about-image" style={{ textAlign: 'left' }}>
-           <div className="glass-card" style={{ padding: '0.6rem', borderRadius: '28px', display: 'inline-block' }}>
-              <img src={profileImg} alt="Ragini Gupta" style={{ width: '100%', borderRadius: '20px', display: 'block', transform: 'perspective(1000px) rotateY(5deg)' }} />
+           <div className="glass-card" style={{ padding: '0.6rem', borderRadius: '28px', display: 'inline-block', width: '100%' }}>
+              <video src={introVideo} controls style={{ width: '100%', borderRadius: '20px', display: 'block', transform: 'perspective(1000px) rotateY(5deg)', backgroundColor: 'rgba(0,0,0,0.5)' }} />
            </div>
         </div>
         <div className="about-content">

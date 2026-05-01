@@ -17,6 +17,7 @@ import CustomCursor from './components/CustomCursor'
 
 import DailyJournal from './components/DailyJournal'
 import TechInsights from './components/TechInsights'
+import EssaySection from './components/EssaySection'
 
 import { playClick, playTransition } from './utils/audio'
 
@@ -153,6 +154,7 @@ function App() {
 
       <Hero />
       <About />
+      <EssaySection />
       <AIBioAssistant />
       <TechInsights />
       <DailyJournal />
